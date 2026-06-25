@@ -1,209 +1,124 @@
 <div align="center">
 
-  # DressMe AI — Seu Guarda-Roupa Inteligente
+# 👗 DressMe AI — Seu Guarda-Roupa Inteligente
 
-  <p align="center">
-    <b>Fashion Tech</b> que une Inteligência Artificial, guarda-roupa digital e avatar 3D para revolucionar a forma como você se veste.
-  </p>
+<p align="center">
+  <b>Fashion Tech powered by AI</b> que combina inteligência artificial, guarda-roupa digital e avatar 3D para transformar a forma como você escolhe, organiza e visualiza suas roupas.
+</p>
 
-  <p>
-    <a href="#-funcionalidades">Funcionalidades</a> •
-    <a href="#-tecnologias">Tecnologias</a> •
-    <a href="#-como-rodar">Como Rodar</a> •
-    <a href="#-deploy">Deploy</a>
-  </p>
+<p align="center">
+  <a href="#-visão-geral">Visão Geral</a> •
+  <a href="#-por-que-este-projeto-existe">Por que este projeto existe</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-ux--ui-highlights">UX/UI</a> •
+  <a href="#-stack-tecnológica">Stack</a> •
+  <a href="#-estrutura-do-projeto">Estrutura</a> •
+  <a href="#️-como-rodar-localmente">Como Rodar</a> •
+  <a href="#-deploy">Deploy</a>
+</p>
 
-  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white" />
 
 </div>
 
 ---
 
-## 📸 Preview
+## 🚀 Live Demo
 
-![DressMe AI Hero](src/assets/hero-app.jpg)
+🔗 Acesse o projeto: **https://seu-link-aqui.com**
 
-A landing page apresenta uma experiência visual imersiva com gradientes vibrantes (vermelho coral → laranja), animações suaves e design responsivo — transmitindo inovação e estilo desde o primeiro scroll.
+---
+
+## 📌 Visão Geral
+
+O **DressMe AI** é uma landing page moderna de um produto fictício de moda inteligente (Fashion Tech), criada para demonstrar habilidades em UI/UX, front-end moderno e storytelling de produto SaaS.
+
+O projeto simula um ecossistema completo de moda inteligente com IA, onde o usuário pode:
+
+- Digitalizar e organizar seu guarda-roupa  
+- Receber recomendações inteligentes de outfits  
+- Visualizar looks em um avatar 3D interativo  
+- Acompanhar a evolução de seu estilo pessoal  
+
+---
+
+## 🧠 Por que este projeto existe
+
+Este projeto foi desenvolvido como peça de portfólio de alto nível com foco em:
+
+- Front-end moderno com React 19 + TypeScript  
+- Landing pages de alta conversão  
+- Simulação de SaaS real com UX premium  
+- Storytelling de produto estilo startup  
+- Arquitetura limpa, modular e escalável  
 
 ---
 
 ## ✨ Funcionalidades
 
-A landing page é composta por **10 seções estratégicas** que contam a história completa do produto:
+A landing page é estruturada em 10 seções:
 
 | Seção | Descrição |
-|-------|-----------|
-| **Navbar** | Navegação fixa com blur dinâmico, menu mobile responsivo e CTA de lista de espera |
-| **Hero** | Headline impactante, estatísticas de engajamento, imagem do app com efeito de flutuação e botões de conversão |
-| **Problema** | 4 cards que identificam as dores do público: tempo perdido, combinações difíceis, peças esquecidas e compras impulsivas |
-| **Como Funciona** | Pipeline visual em 4 etapas: fotos → guarda-roupa digital → IA → avatar 3D |
-| **Funcionalidades** | Showcase do app com 4 screenshots (guarda-rouba, recomendações, histórico, avatar) |
-| **Avatar 3D** | Seção dedicada ao avatar interativo com visualização de looks em tempo real |
-| **IA** | Explicação do motor de Inteligência Artificial e aprendizado de preferências |
-| **Benefícios** | Argumentos de venda com ícones e descrições objetivas |
-| **Depoimentos** | Social proof com avaliações de usuários beta |
-| **Preços** | Tabela de planos Gratuito vs Premium com destaque visual para o plano mais popular |
-| **CTA + Footer** | Chamada final para ação, links sociais, navegação e informações de contato |
-
-### Destaques de UX/UI
-
-- **Tema escuro premium** com paleta própria (vermelho coral `#E53935` → laranja `#FF6F00`)
-- **Animações de scroll** e transições suaves em todos os componentes
-- **Efeitos de glow** e gradientes radiais para profundidade visual
-- **Totalmente responsivo** — desktop, tablet e mobile
-- **Scroll suave** com âncoras em todas as seções
-- **Tipografia moderna**: Space Grotesk (títulos) + Inter (corpo)
+|------|-----------|
+| Navbar | Navegação fixa com glassmorphism e CTA |
+| Hero | Proposta de valor impactante |
+| Problema | Dores do usuário |
+| Como Funciona | IA explicada em 4 etapas |
+| App Showcase | Interface do produto |
+| Avatar 3D | Provador virtual inteligente |
+| IA Engine | Sistema de recomendação |
+| Benefícios | Ganhos do usuário |
+| Depoimentos | Prova social |
+| Pricing | Planos Free vs Premium |
+| CTA Final | Conversão final |
 
 ---
 
-## 🛠 Tecnologias
+## 🎨 UX / UI Highlights
 
-| Tecnologia | Versão | Uso |
-|------------|--------|-----|
-| [React](https://react.dev/) | 19 | Biblioteca UI |
-| [TypeScript](https://www.typescriptlang.org/) | 5.8 | Tipagem estática |
-| [Tailwind CSS](https://tailwindcss.com/) | 4 | Estilização utilitária |
-| [Vite](https://vitejs.dev/) | 8 | Build tool e dev server |
-| [TanStack Router](https://tanstack.com/router) | 1.168 | Roteamento tipado |
-| [TanStack Query](https://tanstack.com/query) | 5.83 | Gerenciamento de estado server |
-| [Radix UI](https://www.radix-ui.com/) | 1.x | Componentes headless acessíveis |
-| [Lucide React](https://lucide.dev/) | 0.575 | Ícones |
-| [Framer Motion](https://www.framer.com/motion/) | *via Animate.css* | Animações declarativas |
+- Design Dark Premium com gradientes modernos  
+- Microinterações com Framer Motion  
+- Glassmorphism e blur effects  
+- 100% responsivo (Mobile First)  
+- Tipografia: Space Grotesk + Inter  
+- Estrutura baseada em AIDA  
 
 ---
 
-## 📁 Estrutura de Pastas
+## 🧱 Stack Tecnológica
 
-```
+| Tecnologia | Função |
+|------------|--------|
+| React 19 | Interface principal |
+| TypeScript | Tipagem estática |
+| Tailwind CSS 4 | Estilização |
+| Vite | Build rápido |
+| TanStack Router | Roteamento tipado |
+| TanStack Query | Estado assíncrono |
+| Radix UI | Componentes acessíveis |
+| Lucide Icons | Ícones SVG |
+| Framer Motion | Animações |
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
 dressme-ai/
-├── public/                    # Assets estáticos (favicon, imagens públicas)
+├── public/
 ├── src/
-│   ├── assets/                # Imagens do app e screenshots
-│   │   ├── hero-app.jpg
-│   │   ├── screen-wardrobe.jpg
-│   │   ├── screen-recommendations.jpg
-│   │   ├── screen-history.jpg
-│   │   ├── screen-avatar.jpg
-│   │   ├── avatar-3d.jpg
-│   │   └── ai-visual.jpg
+│   ├── assets/
 │   ├── components/
-│   │   ├── landing/           # Seções da landing page
-│   │   │   ├── Navbar.tsx
-│   │   │   ├── Hero.tsx
-│   │   │   ├── Problem.tsx
-│   │   │   ├── HowItWorks.tsx
-│   │   │   ├── AppShowcase.tsx
-│   │   │   ├── AvatarSection.tsx
-│   │   │   ├── AISection.tsx
-│   │   │   ├── Benefits.tsx
-│   │   │   ├── Testimonials.tsx
-│   │   │   ├── Pricing.tsx
-│   │   │   ├── CTA.tsx
-│   │   │   └── Footer.tsx
-│   │   └── ui/                # Componentes reutilizáveis (Button, Card, etc.)
-│   ├── routes/                # Rotas do TanStack Router
-│   │   ├── __root.tsx         # Layout raiz (head, meta, shell HTML)
-│   │   └── index.tsx          # Página inicial (landing page)
-│   ├── router.tsx             # Configuração do roteador
-│   ├── styles.css             # Tailwind + tema customizado + animações
-│   └── lib/                   # Utilitários e helpers
-├── index.html                 # Entry point HTML
-├── vite.config.ts             # Configuração do Vite
-├── tsconfig.json              # Configuração do TypeScript
+│   │   ├── landing/
+│   │   └── ui/
+│   ├── routes/
+│   ├── router.tsx
+│   ├── styles.css
+│   └── lib/
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
 └── package.json
-```
-
----
-
-## 🚀 Como Rodar
-
-### Pré-requisitos
-
-- [Node.js](https://nodejs.org/) 18+ (recomendado: 20 LTS)
-- npm (instalado automaticamente com o Node)
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/dressme-ai.git
-cd dressme-ai
-```
-
-### 2. Instale as dependências
-
-```bash
-npm install
-```
-
-### 3. Inicie o servidor de desenvolvimento
-
-```bash
-npm run dev
-```
-
-O app estará disponível em `http://localhost:8080` (ou na porta indicada no terminal).
-
-### 4. Build de produção
-
-```bash
-npm run build
-```
-
-Os arquivos otimizados serão gerados na pasta `dist/`.
-
-### 5. Preview da build
-
-```bash
-npm run preview
-```
-
-Serve a build de produção localmente para validação.
-
----
-
-## 📦 Deploy
-
-A aplicação é **estática** (não requer backend), então pode ser hospedada em qualquer plataforma de static hosting:
-
-| Plataforma | Instruções |
-|------------|------------|
-| **Vercel** | `vercel --prod` ou conecte o repo via dashboard |
-| **Netlify** | Drag & drop da pasta `dist/` ou conecte via Git |
-| **GitHub Pages** | Use o workflow de deploy do Vite ou `gh-pages` |
-| **Cloudflare Pages** | Conecte o repo — build command: `npm run build`, output dir: `dist` |
-
-> **Dica:** A landing page é 100% client-side. Não há APIs externas, banco de dados ou variáveis de ambiente obrigatórias para funcionar.
-
----
-
-## 🎨 Identidade Visual
-
-| Token | Valor | Uso |
-|-------|-------|-----|
-| **Brand Primary** | `#E53935` (coral) | Botões, gradientes, destaques |
-| **Brand Orange** | `#FF6F00` | Acentos, animações de pulse |
-| **Background** | `#121212` | Fundo escuro principal |
-| **Surface** | `#1E1E1E` | Cards, modais, containers |
-| **Font Display** | Space Grotesk | Títulos e headlines |
-| **Font Body** | Inter | Textos e parágrafos |
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-<div align="center">
-
-  Feito com paixão por moda e tecnologia.
-
-  <a href="https://github.com/seu-usuario/dressme-ai">
-    <img src="https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white" />
-  </a>
-
-</div>
